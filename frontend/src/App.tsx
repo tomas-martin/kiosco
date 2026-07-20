@@ -1,7 +1,6 @@
-import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Toaster } from 'react-hot-toast';
-import AppRouter from './routes/AppRouter'; // En español: rutas/AppRouter o routes/AppRouter. Espera, el folder es src/routes/AppRouter.tsx o src/rutas/AppRouter.tsx? 
+import AppRouter from './rutas/AppRouter';
 // Let's check: We created it as d:/Totti/FACULTAD/kiosco/frontend/src/rutas/AppRouter.tsx
 // So we import from './rutas/AppRouter'
 
