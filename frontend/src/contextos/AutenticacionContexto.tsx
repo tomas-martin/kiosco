@@ -1,5 +1,5 @@
-import React, { createContext, useState, useEffect, ReactNode } from 'react';
-import { Usuario, Rol } from '../tipos';
+import React, { createContext, useState, useEffect, type ReactNode } from 'react';
+import type { Usuario } from '../tipos';
 import clienteApi from '../servicios/api';
 
 interface AutenticacionContextoTipo {
